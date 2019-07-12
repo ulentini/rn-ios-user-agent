@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/ulentini/rn-ios-user-agent.git", :tag => "v#{s.version}" }
-  s.source_files  = "ios/**/*.{h,m}"
+  s.source_files  = "RNUserAgent/**/*.{h,m}"
 
   s.dependency 'React'
 end
